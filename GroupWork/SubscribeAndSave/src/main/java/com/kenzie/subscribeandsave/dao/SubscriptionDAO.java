@@ -41,7 +41,7 @@ public class SubscriptionDAO {
                     .withCustomerId(customerId)
                     .withFrequency(frequency)
                     .build();
-
+//needed to switch customerID and ASIN in string builder
         return storage.writeSubscription(subscription);
     }
 }
